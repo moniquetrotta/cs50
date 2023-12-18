@@ -1,0 +1,39 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.container {
+  display: flex;
+}
+
+main {
+  justify-content: center;
+  align-items: center;
+  width: 500px;
+  padding: 30px;
+}
+#contador {
+  display: flex;
+  flex-direction: column;
+  box-sizing: border-box;
+  min-width: 500px;
+  heigth: 800px;
+  padding: 30px;
+  justify-content: center;
+  align-items: center;
+}
+.divcontador {
+  margin-bottom: 2px;
+  padding: 8px;
+  background-color: pink;
+  width: 200px;
+}
+/* p {
+  display: flex;
+  box-sizing: border-box;
+  min-width: 500px;
+  padding: 30px;
+  justify-content: center;
+  align-items: center;
+} */
